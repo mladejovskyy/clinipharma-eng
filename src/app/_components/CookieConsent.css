@@ -1,0 +1,33 @@
+#cc-main .pm__btn {
+    background: #15479C !important;
+    border-color: transparent !important;
+}
+
+#cc-main .pm__btn--secondary {
+    background: rgba(21, 71, 156, 0.2) !important;
+}
+#cc-main .pm__btn--secondary:hover {
+    background: rgba(21, 71, 156, 0.2) !important;
+}
+
+#cc-main .section__toggle:checked~.toggle__icon {
+    background: #15479C !important;
+    box-shadow: 0 0 0 1px #15479C !important;
+}
+#cc-main .toggle__icon {
+    background: rgba(21, 71, 156, 0.25) !important;
+    box-shadow: 0 0 0 1px rgba(21, 71, 156, 0.25) !important;
+}
+#cc-main .section__toggle:checked:disabled~.toggle__icon {
+    background: rgba(21, 71, 156, 0.07) !important;
+    box-shadow: 0 0 0 1px rgba(21, 71, 156, 0.07) !important;
+}
+#cc-main .cm__btn {
+    background: #15479C !important;
+    border: 2px solid #15479C !important;
+}
+#cc-main .cm__btn--secondary {
+    background: none !important;
+    border-color: #15479C !important;
+    color: #15479C !important;
+}

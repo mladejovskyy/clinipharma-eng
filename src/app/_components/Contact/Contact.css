@@ -1,0 +1,206 @@
+.contact {
+    min-height: 60vh;
+    background-image: url('/images/contact-bg.webp');
+    background-size: cover;
+    background-position: center;
+    padding: 40px 0;
+}
+
+.contact h2 {
+    color: #fff;
+}
+
+.contact .row {
+    display: grid;
+    gap: 100px;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 32px;
+}
+
+.contact form {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr;
+}
+
+.contact input, .contact textarea {
+    padding: 16px 24px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.contact input:focus, .contact textarea:focus {
+    outline: none;
+}
+
+.contact button {
+    padding: 16px 48px;
+    margin-top: -36px;
+}
+
+.contact .item.right {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact iframe {
+    flex-grow: 1;
+    width: 100%;
+    margin-top: 32px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.contact .links {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.contact .links a {
+    color: #fff;
+    font-weight: 500;
+    display: grid;
+    gap: 8px;
+    font-size: 18px;
+    grid-template-columns: 36px auto;
+    align-items: center;
+}
+
+
+.contact .custom-checkbox {
+    background: transparent;
+    border: 1px solid #fff;
+    width: 16px;
+    height: 16px;
+    border-radius: 2px;
+}
+
+.contact .zpracovani-udaju {
+    position: relative;
+    padding-left: 25px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    cursor: pointer;
+    font-size: 14px !important;
+    margin-left: auto;
+    color: #fff;
+}
+
+/* Hide the browser's default checkbox */
+.contact .zpracovani-udaju input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+.contact .checkmark {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    height: 16px;
+    width: 16px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 2px;
+}
+
+/* On mouse-over, add a grey background color */
+.contact .zpracovani-udaju:hover input ~ .checkmark {
+    background-color: transparent;
+    transition: all 0.1s ease-in-out;
+}
+
+/* When the checkbox is checked, add a blue background */
+.contact .zpracovani-udaju input:checked ~ .checkmark {
+    background-color: #fff;
+    transition: all 0.1s ease-in-out;
+    border-color: #fff;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.contact .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.contact .zpracovani-udaju input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.contact .zpracovani-udaju .checkmark:after {
+    left: 5px;
+    top: 1px;
+    width: 5px;
+    height: 10px;
+    border: solid #15479C;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+}
+
+@media (max-width: 1536px) {
+}
+
+@media (max-width: 1280px) {
+    .contact button {
+        margin-top: 0px;
+    }
+
+    .contact .zpracovani-udaju {
+        margin-left: 0;
+    }
+
+    .contact .links a {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .contact .row {
+        grid-template-columns: 1fr;
+        gap: 48px;
+    }
+    
+    .contact iframe {
+        min-height: 300px;
+    }
+
+    .contact button {
+        margin-top: -36px;
+    }
+
+    .contact .zpracovani-udaju {
+        margin-left: auto;
+    }
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 640px) {
+    .contact button {
+        margin-top: 0px;
+    }
+
+    .contact .zpracovani-udaju {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 475px) {
+    .contact .links {
+        flex-direction: column;
+        gap: 20px;
+    }
+}

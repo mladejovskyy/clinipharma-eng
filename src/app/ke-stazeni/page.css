@@ -1,0 +1,59 @@
+.download .row {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 48px;
+    margin-top: 48px;
+}
+
+.download h2 {
+    font-size: 24px;
+    text-align: center;
+}
+
+.download .heading-reverse {
+    gap: 4px;
+    align-items: center;
+}
+
+.download ul {
+    margin-top: 16px;
+    display: grid;
+    gap: 12px;
+}
+
+.download ul a {
+    display: grid;
+    gap: 8px;
+    grid-template-columns: auto 28px;
+    align-items: center;
+    transition: all 0.1s ease-in-out;
+}
+
+.download ul a:hover {
+    text-decoration: underline;
+    color: #15479C;
+}
+
+@media (max-width: 1536px) {
+}
+
+@media (max-width: 1280px) {
+    .download .row {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 640px) {
+    .download .row {
+        grid-template-columns: auto;
+    }
+}
+
+@media (max-width: 475px) {
+}

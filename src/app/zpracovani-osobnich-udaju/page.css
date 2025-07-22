@@ -1,0 +1,65 @@
+.gdpr {
+    position: relative;
+}
+
+.gdpr .row {
+    display: grid;
+    gap: 28px;
+    margin-top: 48px;
+}
+
+.gdpr h2 {
+    font-size: 28px;
+}
+
+.gdpr p {
+    margin-top: 8px;
+}
+
+.gdpr p span {
+    color: #393939;
+    font-weight: 500;
+    cursor: initial;
+}
+
+.gdpr ul {
+    list-style: initial;
+    margin-left: 20px;
+}
+
+.gdpr ul span {
+    font-weight: 600;
+}
+
+.gdpr a {
+    color: #15479C;
+    font-weight: 500;
+}
+
+.gdpr a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 1536px) {
+}
+
+@media (max-width: 1280px) {
+}
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 640px) {
+    .gdpr h2 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 475px) {
+    .gdpr h2 {
+        font-size: 22px;
+    }
+}

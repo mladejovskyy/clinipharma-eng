@@ -1,0 +1,144 @@
+footer {
+    background-color: transparent;
+}
+
+footer.hasBg {
+    background-color: rgba(78, 26, 181, 0.04);
+}
+
+footer .row {
+    padding: 54px 0 36px 0;
+    display: grid;
+    grid-template-columns: 1.5fr 0.8fr auto auto auto;
+    gap: 80px;
+    align-items: start;
+}
+
+footer .bottom {
+    background-color: #15479C;
+    
+}
+
+footer .bottom .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+footer .bottom a, footer .bottom p {
+    color: #fff;
+}
+
+footer img.logo {
+    max-height: 54px;
+    cursor: pointer;
+}
+
+footer p.slogan {
+    margin-top: 16px;
+}
+
+footer p.ico {
+    margin-top: 20px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+footer h2 {
+    font-weight: 600;
+    font-size: 22px;
+} 
+
+footer ul {
+    display: grid;
+    gap: 8px;
+    margin-top: 12px;
+}
+
+footer ul li {
+    color: rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+    font-weight: 400;
+    transition: color 0.2s ease-in-out;
+}
+
+footer ul li:hover {
+    color: #15479C;
+}
+
+footer .link {
+    color: rgba(0, 0, 0, 0.8);
+    display: grid;
+    gap: 8px;
+    grid-template-columns: 30px auto;
+    align-items: center;
+    font-weight: 400;
+    transition: color 0.15s ease-in-out;
+}
+
+footer .link:hover {
+    color: #15479C;
+}
+
+footer .author span {
+    color: #15479C;
+    font-weight: 400;
+}
+
+footer .copyright, footer .author {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+@media (max-width: 1280px) {
+    footer .row {
+        grid-template-columns: 1fr 0.3fr 1fr 1fr 1fr;
+        gap: 40px;
+    }
+}
+
+@media (max-width: 1024px) {
+    footer .row {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    footer .group.empty {
+        display: none;
+    }
+
+    footer .bottom .author {
+        gap: 4px;
+    }
+}
+
+@media (max-width: 768px) {
+    footer .row .item.right ul {
+        flex-direction: column;
+        margin-top: 12px;
+        gap: 22px;
+    }
+
+    footer .item.right h3.sm-show {
+        display: initial;
+        font-weight: 400;
+        font-size: 1.3rem;
+    }
+
+    footer .bottom .row {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    footer .bottom .row * {
+        text-align: center;
+    }
+}
+
+@media (max-width: 640px) {
+    footer .row {
+        grid-template-columns: 1fr;
+    }
+}
