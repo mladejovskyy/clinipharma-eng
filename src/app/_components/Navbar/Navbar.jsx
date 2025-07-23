@@ -95,7 +95,7 @@ export default function Navbar({subpage}) {
                             data-aos-delay="200"><span>From Production</span>
                         </li>
                         <li data-aos="fade-down" data-aos-once="true" data-aos-delay="300">
-                            <Link href="/downloads/" rel="noopener noreferrer" aria-label="Link to downloads">
+                            <Link href="/downloads/" rel="noopener noreferrer" aria-label="Link to downloads page">
                                     <span>Downloads</span>
                             </Link>
                         </li>

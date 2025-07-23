@@ -9,7 +9,7 @@ export default function Banner({ headingText, breadcrumbs = [] }) {
                 <h4 className='paths'>
                     {breadcrumbs.map((breadcrumb, index) => (
                         <React.Fragment key={index}>
-                            <Link href={breadcrumb.url} rel="noopener noreferrer" aria-label={`Odkaz na ${breadcrumb.text}`}>
+                            <Link href={breadcrumb.url} rel="noopener noreferrer" aria-label={`Link to ${breadcrumb.text} page`}>
                                 {breadcrumb.text}
                             </Link>
                             {index < breadcrumbs.length - 1 && <span> / </span>}
