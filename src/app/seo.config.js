@@ -1,7 +1,7 @@
-const title = 'Zdravotnické potřeby a infuzní vybavení | CliniPharma s.r.o';
-const description = 'CliniPharma je český výrobce kvalitního infuzního a zdravotnického vybavení pro nemocnice, kliniky i soukromé ordinace. Důraz na inovaci, bezpečnost a spolehlivost.';
+const title = 'Infusion Systems & Medical Equipment – European Manufacturer | CliniPharma s.r.o.';
+const description = 'CliniPharma is a European manufacturer of high-quality infusion systems and medical supplies for hospitals, clinics, and healthcare professionals.';
 
-const domain = process.env.NEXT_PUBLIC_DOMAIN || 'https://www.clinipharma.cz';
+const domain = process.env.NEXT_PUBLIC_DOMAIN || 'https://www.clinipharma.eu';
 
 const seo = {
     metadataBase: new URL(domain),
@@ -10,14 +10,12 @@ const seo = {
     applicationName: title,
     generator: 'Next.js',
     keywords: [
-        'infuzní vybavení',
-        'zdravotnické potřeby',
-        'český výrobce',
-        'zdravotnický materiál',
-        'infuzní sety',
-        'zdravotní pomůcky',
-        'nemocniční vybavení',
-        'CliniPharma',
+        'infusion systems',
+        'medical equipment',
+        'hospital supplies',
+        'clinical products',
+        'B2B medical supplies',
+        'CliniPharma'
     ],
 
     authors: 'CliniPharma s.r.o',
@@ -26,7 +24,7 @@ const seo = {
 
     openGraph: {
         type: 'website',
-        locale: 'cs_CZ',
+        locale: 'en_US',
         url: domain,
         title: title,
         description: description,
@@ -36,7 +34,7 @@ const seo = {
                 url: `${domain}/og-image.jpg`,
                 width: 1200,
                 height: 630,
-                alt: `${title} – Open Graph Obrázek`,
+                alt: `${title} – Open Graph Image`,
             },
         ],
     },
@@ -45,8 +43,8 @@ const seo = {
         card: 'summary_large_image',
         title: title,
         description: description,
-        site: '@clinipharma.cz',
-        creator: '@clinipharma.cz',
+        site: '@clinipharma.eu',
+        creator: '@clinipharma.eu',
         images: [`${domain}/og-image.jpg`],
     },
 

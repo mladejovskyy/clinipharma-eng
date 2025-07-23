@@ -13,7 +13,7 @@ const getConfig = (): CookieConsentConfig => {
     cookie: {
       name: 'cookie_consent',
       path: '/',
-      domain: 'clinipharma.cz',
+      domain: 'clinipharma.eu',
       expiresAfterDays: 365,
     },
 
@@ -81,44 +81,44 @@ const getConfig = (): CookieConsentConfig => {
     },
 
     language: {
-      default: 'cs',
+      default: 'en',
       translations: {
-        cs: {
+        en: {
           consentModal: {
-            title: 'Používáme cookies',
+            title: 'We use cookies',
             description:
-                'Naše webová stránka používá soubory cookies, abychom vám zajistili co nejlepší uživatelský zážitek. Kliknutím na „Přijmout všechny cookies“ souhlasíte s jejich používáním pro účely analýzy a nezbytné funkce webu.',
-            acceptAllBtn: 'Přijmout vše',
-            acceptNecessaryBtn: 'Odmítnout vše',
-            showPreferencesBtn: 'Spravovat preference',
+                  'Our website uses cookies to ensure you get the best possible user experience. By clicking “Accept all cookies,” you agree to their use for analytics and essential site functions.',
+            acceptAllBtn: 'Accept All',
+            acceptNecessaryBtn: 'Deny All',
+            showPreferencesBtn: 'Manage preferences',
             footer: `
               <a href='/zpracovani-osobnich-udaju/' target='_blank'>Zásady ochrany osobních údajů</a>
             `,
           },
           preferencesModal: {
-            title: 'Spravovat nastavení cookies',
-            acceptAllBtn: 'Přijmout vše',
-            acceptNecessaryBtn: 'Odmítnout vše',
-            savePreferencesBtn: 'Přijmout aktuální výběr',
-            closeIconLabel: 'Zavřít okno',
+            title: 'Manage cookies settings',
+            acceptAllBtn: 'Accept All',
+            acceptNecessaryBtn: 'Deny All',
+            savePreferencesBtn: 'Accept current selection',
+            closeIconLabel: 'Close window',
             sections: [
               {
-                title: 'Využití cookies',
-                description: `Naše webová stránka používá soubory cookies, abychom vám zajistili co nejlepší uživatelský zážitek. Díky nim můžeme personalizovat obsah, zlepšovat funkčnost webu a analyzovat jeho návštěvnost. Kliknutím na „Přijmout všechny cookies“ souhlasíte s jejich používáním pro účely analýzy a nezbytné funkce webu.`,
+                title: 'Use of Cookies',
+                description: `Our website uses cookies to ensure you get the best user experience. They allow us to personalize content, improve site functionality, and analyze traffic. By clicking “Accept all cookies,” you agree to their use for analytics and essential site functions.`,
               },
               {
-                title: 'Nezbytné cookies <span class="pm__badge">Vždy povoleno</span>',
-                description: 'Tyto cookies jsou nutné pro správné fungování webu. Bez nich by některé funkce nefungovaly správně ',
+                title: 'Necessary Cookies <span class="pm__badge">Always enabled</span>',
+                description: 'These cookies are essential for the proper functioning of the website. Without them, some features would not work correctly.',
                 linkedCategory: 'necessary',
               },
               {
-                title: 'Analytické cookies',
-                description: 'Sledují, jak návštěvníci používají náš web. Získané údaje nám pomáhají pochopit, jak web zlepšit a optimalizovat tak, aby vyhovoval vašim potřebám.',
+                title: 'Analytics Cookies',
+                description: 'Track how visitors use our website. The data helps us understand how to improve and optimize the site to better meet your needs.',
                 linkedCategory: 'analytics',
               },
               {
-                title: 'Více informací',
-                description: 'Máte-li jakékoli dotazy týkající se našich zásad používání cookies, <a href="/kontakt/">kontaktujte nás</a>.',
+                title: 'More Information',
+                description: 'If you have any questions about our cookie policy, <a href="/contact/">contact us</a>.',
               },
             ],
           },

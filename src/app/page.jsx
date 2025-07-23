@@ -77,17 +77,17 @@ export default function Home() {
           <section className="hero" id="hero">
             <div className="container">
               <div className="row">
-                <h1>Bezpečné a spolehlivé zdravotnické potřeby pro moderní zdravotnictví
+                <h1>Safe and reliable medical supplies for modern healthcare
                 </h1>
                 <p>
-                  Dodáváme certifikované zdravotnické potřeby, které minimalizují rizika kontaminace, zvyšují bezpečnost pacientů a splňují nejnovější medicínské standardy
+                  We supply certified medical products that minimize contamination risks, increase patient safety, and meet the latest medical standards
                 </p>
                 <div className="btns-row">
                   <div data-aos="fade-right" data-aos-once="true" data-aos-delay="0">
-                    <button className="btn btn-secondary" onClick={() => scrollToTarget("contact")}>Kontaktovat</button>
+                    <button className="btn btn-secondary" onClick={() => scrollToTarget("contact")}>Contact us</button>
                   </div>
                   <div data-aos="fade-right" data-aos-once="true" data-aos-delay="100">
-                    <button className="btn btn-secondary-outline" onClick={() => scrollToTarget("products")}>Zobrazit produkty</button>
+                    <button className="btn btn-secondary-outline" onClick={() => scrollToTarget("products")}>View products</button>
                   </div>
                 </div>
               </div>
@@ -96,7 +96,7 @@ export default function Home() {
         </main>
         <section className="products space-sm" id="products">
           <div className="container">
-            <h2>Produkty</h2>
+            <h2>Products</h2>
             <div className="row">
               <img src="/images/products/product-photo1.webp" alt="Foto produktu" draggable={false} loading="lazy" className="item one"/>
               <img src="/images/products/product-photo2.webp" alt="Foto produktu" draggable={false} loading="lazy" className="item two"/>
@@ -104,52 +104,52 @@ export default function Home() {
               <img src="/images/products/product-photo4.webp" alt="Foto produktu" draggable={false} loading="lazy" className="item four"/>
             </div>
             <div className="btns-row" data-aos="fade-up" data-aos-once="true" data-aos-delay="0">
-              <Link href="/produkty/" rel="noopener noreferrer" aria-label="Odkaz na všechny produkty" className="btn btn-primary">Zobrazit všechny produkty</Link>
+              <Link href="/products/" rel="noopener noreferrer" aria-label="Link to all products" className="btn btn-primary">View All Products</Link>
             </div>
           </div>
         </section>
         <section className="marquee space sm" id="marquee">
           <Marquee style={{ display: 'flex' }}>
-            <Link href="https://cz.kuehne-nagel.com/cs/" rel="noreferrer noopener nofollow" target="_blank" aria-label="Odkaz na našeho obchodního partnera Kuehne Nagel">
+            <Link href="https://cz.kuehne-nagel.com/cs/" rel="noreferrer noopener nofollow" target="_blank" aria-label="Link to our business partner Kuehne Nagel">
               <img loading="lazy" className="marquee-logo" src="/images/marquee-logo1.webp" alt="Logo Kuehne Nagel" draggable={false} width={240} height={50}/>
             </Link>
-            <Link href="https://medicalface.cz/" rel="noreferrer noopener nofollow" target="_blank" aria-label="Odkaz na našeho obchodního partnera Medical Face">
+            <Link href="https://medicalface.cz/" rel="noreferrer noopener nofollow" target="_blank" aria-label="Link to our business partner Medical Face">
               <img loading="lazy" className="marquee-logo" src="/images/marquee-logo2.webp" alt="Logo Medical Face" draggable={false} width={88} height={50}/>
             </Link>
-            <Link href="https://cz.kuehne-nagel.com/cs/" rel="noreferrer noopener nofollow" target="_blank" aria-label="Odkaz na našeho obchodního partnera Kuehne Nagel">
+            <Link href="https://cz.kuehne-nagel.com/cs/" rel="noreferrer noopener nofollow" target="_blank" aria-label="Link to our business partner Kuehne Nagel">
               <img loading="lazy" className="marquee-logo" src="/images/marquee-logo1.webp" alt="Logo Kuehne Nagel" draggable={false} width={240} height={50}/>
             </Link>
-            <Link href="https://medicalface.cz/" rel="noreferrer noopener nofollow" target="_blank" aria-label="Odkaz na našeho obchodního partnera Medical Face">
+            <Link href="https://medicalface.cz/" rel="noreferrer noopener nofollow" target="_blank" aria-label="Link to our business partner Medical Face">
               <img loading="lazy" className="marquee-logo" src="/images/marquee-logo2.webp" alt="Logo Medical Face" draggable={false} width={88} height={50}/>
             </Link>
-            <Link href="https://cz.kuehne-nagel.com/cs/" rel="noreferrer noopener nofollow" target="_blank" aria-label="Odkaz na našeho obchodního partnera Kuehne Nagel">
+            <Link href="https://cz.kuehne-nagel.com/cs/" rel="noreferrer noopener nofollow" target="_blank" aria-label="Link to our business partner Kuehne Nagel">
               <img loading="lazy" className="marquee-logo" src="/images/marquee-logo1.webp" alt="Logo Kuehne Nagel" draggable={false} width={240} height={50}/>
             </Link>
-            <Link href="https://medicalface.cz/" rel="noreferrer noopener nofollow" target="_blank" aria-label="Odkaz na našeho obchodního partnera Medical Face">
+            <Link href="https://medicalface.cz/" rel="noreferrer noopener nofollow" target="_blank" aria-label="Link to our business partner Medical Face">
               <img loading="lazy" className="marquee-logo" src="/images/marquee-logo2.webp" alt="Logo Medical Face" draggable={false} width={88} height={50}/>
             </Link>
-            <Link href="https://cz.kuehne-nagel.com/cs/" rel="noreferrer noopener nofollow" target="_blank" aria-label="Odkaz na našeho obchodního partnera Kuehne Nagel">
+            <Link href="https://cz.kuehne-nagel.com/cs/" rel="noreferrer noopener nofollow" target="_blank" aria-label="Link to our business partner Kuehne Nagel">
               <img loading="lazy" className="marquee-logo" src="/images/marquee-logo1.webp" alt="Logo Kuehne Nagel" draggable={false} width={240} height={50}/>
             </Link>
-            <Link href="https://medicalface.cz/" rel="noreferrer noopener nofollow" target="_blank" aria-label="Odkaz na našeho obchodního partnera Medical Face">
+            <Link href="https://medicalface.cz/" rel="noreferrer noopener nofollow" target="_blank" aria-label="Link to our business partner Medical Face">
               <img loading="lazy" className="marquee-logo" src="/images/marquee-logo2.webp" alt="Logo Medical Face" draggable={false} width={88} height={50}/>
             </Link>
-            <Link href="https://cz.kuehne-nagel.com/cs/" rel="noreferrer noopener nofollow" target="_blank" aria-label="Odkaz na našeho obchodního partnera Kuehne Nagel">
+            <Link href="https://cz.kuehne-nagel.com/cs/" rel="noreferrer noopener nofollow" target="_blank" aria-label="Link to our business partner Kuehne Nagel">
               <img loading="lazy" className="marquee-logo" src="/images/marquee-logo1.webp" alt="Logo Kuehne Nagel" draggable={false} width={240} height={50}/>
             </Link>
-            <Link href="https://medicalface.cz/" rel="noreferrer noopener nofollow" target="_blank" aria-label="Odkaz na našeho obchodního partnera Medical Face">
+            <Link href="https://medicalface.cz/" rel="noreferrer noopener nofollow" target="_blank" aria-label="Link to our business partner Medical Face">
               <img loading="lazy" className="marquee-logo" src="/images/marquee-logo2.webp" alt="Logo Medical Face" draggable={false} width={88} height={50}/>
             </Link>
-            <Link href="https://cz.kuehne-nagel.com/cs/" rel="noreferrer noopener nofollow" target="_blank" aria-label="Odkaz na našeho obchodního partnera Kuehne Nagel">
+            <Link href="https://cz.kuehne-nagel.com/cs/" rel="noreferrer noopener nofollow" target="_blank" aria-label="Link to our business partner Kuehne Nagel">
               <img loading="lazy" className="marquee-logo" src="/images/marquee-logo1.webp" alt="Logo Kuehne Nagel" draggable={false} width={240} height={50}/>
             </Link>
-            <Link href="https://medicalface.cz/" rel="noreferrer noopener nofollow" target="_blank" aria-label="Odkaz na našeho obchodního partnera Medical Face">
+            <Link href="https://medicalface.cz/" rel="noreferrer noopener nofollow" target="_blank" aria-label="Link to our business partner Medical Face">
               <img loading="lazy" className="marquee-logo" src="/images/marquee-logo2.webp" alt="Logo Medical Face" draggable={false} width={88} height={50}/>
             </Link>
-            <Link href="https://cz.kuehne-nagel.com/cs/" rel="noreferrer noopener nofollow" target="_blank" aria-label="Odkaz na našeho obchodního partnera Kuehne Nagel">
+            <Link href="https://cz.kuehne-nagel.com/cs/" rel="noreferrer noopener nofollow" target="_blank" aria-label="Link to our business partner Kuehne Nagel">
               <img loading="lazy" className="marquee-logo" src="/images/marquee-logo1.webp" alt="Logo Kuehne Nagel" draggable={false} width={240} height={50}/>
             </Link>
-            <Link href="https://medicalface.cz/" rel="noreferrer noopener nofollow" target="_blank" aria-label="Odkaz na našeho obchodního partnera Medical Face">
+            <Link href="https://medicalface.cz/" rel="noreferrer noopener nofollow" target="_blank" aria-label="Link to our business partner Medical Face">
               <img loading="lazy" className="marquee-logo" src="/images/marquee-logo2.webp" alt="Logo Medical Face" draggable={false} width={88} height={50}/>
             </Link>
           </Marquee>
@@ -158,19 +158,19 @@ export default function Home() {
           <div className="container">
             <div className="row">
               <div className="item left">
-                <h2>O nás</h2>
+                <h2>About Us</h2>
                 <p data-aos="fade-up" data-aos-once="true" data-aos-delay="0">
-                  V roce 1990 začíná naše cesta výrobce zdravotnických prostředků pro Infuzní terapii.
+                  Our journey as a manufacturer of medical devices for infusion therapy began in 1990.
                 </p>
                 <p data-aos="fade-up" data-aos-once="true" data-aos-delay="50">
-                  Výroba je založena v České republice a postupně začíná vznikat holding skupina firem vyrábějící jak v Evropě tak v Asii a skupina CliniPharma Group se zařazuje mezi významné výrobce zdravotnické techniky a také jako OEM výrobce pro světové lídry v tomto oboru.
+                  The production was established in the Czech Republic, and gradually a holding group of companies began to form, manufacturing both in Europe and Asia. The CliniPharma Group has become a significant manufacturer of medical technology as well as an OEM producer for global leaders in this field.
                 </p>
                 <div className="btns-row" data-aos="fade-up" data-aos-once="true" data-aos-delay="50">
-                  <button className="btn btn-primary" onClick={() => scrollToTarget("contact")}>Kontaktovat</button>
+                  <button className="btn btn-primary" onClick={() => scrollToTarget("contact")}>Contact Us</button>
                 </div>
               </div>
               <div className="item right">
-                <img src="/images/about-photo.webp" alt="Foto našeho týmu" draggable={false} loading="lazy"/>
+                <img src="/images/about-photo.webp" alt="Photo Of Our Team" draggable={false} loading="lazy"/>
               </div>
             </div>
           </div>
@@ -179,83 +179,83 @@ export default function Home() {
           <div className="container">
             <div className="row" data-aos="fade-up" data-aos-once="true" data-aos-delay="0">
               <div className="item one down">
-                <img src="/images/history-dot.svg" width={48} height={48} alt="Ikona tečky" draggable={false} loading="lazy" data-aos="zoom-in" data-aos-once="true" data-aos-delay="0"/>
+                <img src="/images/history-dot.svg" width={48} height={48} alt="Dot Icon" draggable={false} loading="lazy" data-aos="zoom-in" data-aos-once="true" data-aos-delay="0"/>
                 <div className="group">
                   <h3>1990</h3>
                   <p className="sm">
-                    založení v České republice
+                    Founded in the Czech Republic
                   </p>
                 </div>
               </div>
               <div className="item two up">
                 <div className="group">
                   <p className="sm">
-                    joint venture s významným italským výrobcem Infuzní techniky
+                    Joint venture with a major Italian manufacturer of infusion technology
                   </p>
                   <h3>1994</h3>
                 </div>
-                <img src="/images/history-dot.svg" width={48} height={48} alt="Ikona tečky" draggable={false} loading="lazy" data-aos="zoom-in" data-aos-once="true" data-aos-delay="50"/>
+                <img src="/images/history-dot.svg" width={48} height={48} alt="Dot Icon" draggable={false} loading="lazy" data-aos="zoom-in" data-aos-once="true" data-aos-delay="50"/>
               </div>
               <div className="item three down">
-                <img src="/images/history-dot.svg" width={48} height={48} alt="Ikona tečky" draggable={false} loading="lazy" data-aos="zoom-in" data-aos-once="true" data-aos-delay="100"/>
+                <img src="/images/history-dot.svg" width={48} height={48} alt="Dot Icon" draggable={false} loading="lazy" data-aos="zoom-in" data-aos-once="true" data-aos-delay="100"/>
                 <div className="group">
                   <h3>2000</h3>
                   <p className="sm">
-                    spolupráce s německým výrobcem ochranných prostředků
+                    Cooperation with a German manufacturer of protective equipment
                   </p>
                 </div>
               </div>
               <div className="item four up">
                 <div className="group">
                   <p className="sm">
-                    majetkový vstup do výrobce injekční techniky
+                    Equity participation in a manufacturer of injection technology
                   </p>
                   <h3>2002</h3>
                 </div>
-                <img src="/images/history-dot.svg" width={48} height={48} alt="Ikona tečky" draggable={false} loading="lazy" data-aos="zoom-in" data-aos-once="true" data-aos-delay="150"/>
+                <img src="/images/history-dot.svg" width={48} height={48} alt="Dot Icon" draggable={false} loading="lazy" data-aos="zoom-in" data-aos-once="true" data-aos-delay="150"/>
               </div>
               <div className="item five down">
-                <img src="/images/history-dot.svg" width={48} height={48} alt="Ikona tečky" draggable={false} loading="lazy" data-aos="zoom-in" data-aos-once="true" data-aos-delay="200"/>
+                <img src="/images/history-dot.svg" width={48} height={48} alt="Dot Icon" draggable={false} loading="lazy" data-aos="zoom-in" data-aos-once="true" data-aos-delay="200"/>
                 <div className="group">
                   <h3>2010</h3>
                   <p className="sm">
-                    přechod na holding CliniPharma Group
+                    Transition to the CliniPharma Group holding
                   </p>
                 </div>
               </div>
               <div className="item six up">
                 <div className="group">
                   <p className="sm">
-                    výroba v České republice, Slovensko, Itálie a Čína. Prodej výrobků především EU a Asijské trhy pro naše komponenty
+                    Production in the Czech Republic, Slovakia, Italy, and China. Product sales primarily in the EU and Asian markets for our components.
                   </p>
                   <h3>2022</h3>
                 </div>
-                <img src="/images/history-dot.svg" width={48} height={48} alt="Ikona tečky" draggable={false} loading="lazy" data-aos="zoom-in" data-aos-once="true" data-aos-delay="250"/>
+                <img src="/images/history-dot.svg" width={48} height={48} alt="Dot Icon" draggable={false} loading="lazy" data-aos="zoom-in" data-aos-once="true" data-aos-delay="250"/>
               </div>
-              <img src="/images/history-line.svg" className="history-line" alt="Čára v pozadí" draggable={false} loading="lazy"/>
+              <img src="/images/history-line.svg" className="history-line" alt="Line in background" draggable={false} loading="lazy"/>
               <span className="history-line sm"></span>
             </div>
           </div>
         </section>
         <section className="vyroba space" id="vyroba">
           <div className="container">
-            <h2>Z výroby</h2>
+            <h2>From Production</h2>
             <div className="row">
               <div className="item one" onClick={() => setIsVideoOnePlaying(true)}>
-                <img src="/images/vyroba-photo1.webp" className="vyroba-photo" alt="Video z výroby" draggable={false} loading="eager" />
-                <img src="/images/icon-play.svg" className="icon-play" alt="Ikona spuštení videa" width={120} height={120} draggable={false} loading="eager" />
+                <img src="/images/vyroba-photo1.webp" className="vyroba-photo" alt="Video from Production" draggable={false} loading="lazy" />
+                <img src="/images/icon-play.svg" className="icon-play" alt="Play Video Icon" width={120} height={120} draggable={false} loading="lazy" />
               </div>
               <div className="item two" onClick={() => setIsVideoTwoPlaying(true)}>
-                <img src="/images/vyroba-photo2.webp" className="vyroba-photo" alt="Video z výroby" draggable={false} loading="eager" />
-                <img src="/images/icon-play.svg" className="icon-play" alt="Ikona spuštení videa" width={120} height={120} draggable={false} loading="eager" />
+                <img src="/images/vyroba-photo2.webp" className="vyroba-photo" alt="Video from Production" draggable={false} loading="lazy" />
+                <img src="/images/icon-play.svg" className="icon-play" alt="Play Video Icon" width={120} height={120} draggable={false} loading="lazy" />
               </div>
               <div className="item three" onClick={() => setIsVideoThreePlaying(true)}>
-                <img src="/images/vyroba-photo3.webp" className="vyroba-photo" alt="Video z výroby" draggable={false} loading="eager" />
-                <img src="/images/icon-play.svg" className="icon-play" alt="Ikona spuštení videa" width={120} height={120} draggable={false} loading="eager" />
+                <img src="/images/vyroba-photo3.webp" className="vyroba-photo" alt="Video from Production" draggable={false} loading="lazy" />
+                <img src="/images/icon-play.svg" className="icon-play" alt="Play Video Icon" width={120} height={120} draggable={false} loading="lazy" />
               </div>
               <div className="item four" onClick={() => setIsVideoFourPlaying(true)}>
-                <img src="/images/vyroba-photo4.webp" className="vyroba-photo" alt="Video z výroby" draggable={false} loading="eager" />
-                <img src="/images/icon-play.svg" className="icon-play" alt="Ikona spuštení videa" width={120} height={120} draggable={false} loading="eager" />
+                <img src="/images/vyroba-photo4.webp" className="vyroba-photo" alt="Video from Production" draggable={false} loading="lazy" />
+                <img src="/images/icon-play.svg" className="icon-play" alt="Play Video Icon" width={120} height={120} draggable={false} loading="lazy" />
               </div>
             </div>
           </div>
@@ -270,7 +270,7 @@ export default function Home() {
                     className="react-player"
                 />
               </div>
-              <button className="btn btn-primary" onClick={handleCloseModal}>Zavřít video</button>
+              <button className="btn btn-primary" onClick={handleCloseModal}>Close Video</button>
             </div>
         )}
         {isVideoTwoPlaying && (
@@ -283,7 +283,7 @@ export default function Home() {
                     className="react-player"
                 />
               </div>
-              <button className="btn btn-primary" onClick={handleCloseModal}>Zavřít video</button>
+              <button className="btn btn-primary" onClick={handleCloseModal}>Close Video</button>
             </div>
         )}
         {isVideoThreePlaying && (
@@ -296,7 +296,7 @@ export default function Home() {
                     className="react-player"
                 />
               </div>
-              <button className="btn btn-primary" onClick={handleCloseModal}>Zavřít video</button>
+              <button className="btn btn-primary" onClick={handleCloseModal}>Close Video</button>
             </div>
         )}
         {isVideoFourPlaying && (
@@ -309,7 +309,7 @@ export default function Home() {
                     className="react-player"
                 />
               </div>
-              <button className="btn btn-primary" onClick={handleCloseModal}>Zavřít video</button>
+              <button className="btn btn-primary" onClick={handleCloseModal}>Close Video</button>
             </div>
         )}
       <Contact/>

@@ -86,21 +86,21 @@ export default function Navbar({subpage}) {
                     </div>
                     <ul className={`nav-links ${menuOpen ? 'open' : ''}`}>
                         <li onClick={() => scrollToTarget('products')} data-aos="fade-down" data-aos-once="true"
-                            data-aos-delay="0"><span>Produkty</span>
+                            data-aos-delay="0"><span>Products</span>
                         </li>
                         <li onClick={() => scrollToTarget('aboutus')} data-aos="fade-down" data-aos-once="true"
-                            data-aos-delay="100"><span>O nás</span>
+                            data-aos-delay="100"><span>About us</span>
                         </li>
-                        <li onClick={() => scrollToTarget('nadace')} data-aos="fade-down" data-aos-once="true"
-                            data-aos-delay="200"><span>Nadace sport</span>
+                        <li onClick={() => scrollToTarget('vyroba')} data-aos="fade-down" data-aos-once="true"
+                            data-aos-delay="200"><span>From Production</span>
                         </li>
                         <li data-aos="fade-down" data-aos-once="true" data-aos-delay="300">
-                            <Link href="/ke-stazeni/" rel="noopener noreferrer" aria-label="Odkaz na podstránku z výroby">
-                                    <span>Ke stažení</span>
+                            <Link href="/downloads/" rel="noopener noreferrer" aria-label="Link to downloads">
+                                    <span>Downloads</span>
                             </Link>
                         </li>
                         <li data-aos="fade-down" data-aos-once="true" data-aos-delay="400">
-                            <button className="btn btn-secondary" onClick={() => scrollToTarget('contact')}>Kontaktovat</button>
+                            <button className="btn btn-secondary" onClick={() => scrollToTarget('contact')}>Contact us</button>
                         </li>
                     </ul>
                 </nav>

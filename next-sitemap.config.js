@@ -30,16 +30,13 @@ module.exports = {
             case '/':
                 priority = 1.0;
                 break;
-            case '/produkty':
+            case '/products':
                 priority = 0.9;
                 break;
-            case '/ke-stazeni':
+            case '/downloads':
                 priority = 0.9;
                 break;
-            case '/z-vyroby':
-                priority = 0.8;
-                break;
-            case '/zpracovani-osobnich-udaju':
+            case '/personal-data-processing':
                 priority = 0.1;
                 break;
             default:

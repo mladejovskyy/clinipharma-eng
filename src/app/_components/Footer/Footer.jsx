@@ -51,56 +51,56 @@ export default function Footer({hasBg}) {
                                 loading="lazy"
                                 placeholder="blur"
                             />
-                            <p className="slogan sm">Vyrábíme kvalitní zdravotnické potřeby</p>
+                            <p className="slogan sm">We manufacture high-quality medical supplies</p>
                             <p className="ico">
-                                CliniPharma s.r.o<br/>IČO: 24672769<br/>DIČ : CZ24672769<br/>Viklefova 1795/10, 130 00 Praha<br/>
+                                CliniPharma s.r.o<br/>Business ID: 24672769<br/>VAT ID : CZ24672769<br/>Viklefova 1795/10, 130 00 Praha<br/>
                             </p>
                         </div>
                         <div className="group empty"></div>
                         <div className="group">
-                            <h2>Užitečné</h2>
+                            <h2>Useful</h2>
                             <ul>
-                                <li><Link href='/zpracovani-osobnich-udaju/'>Zpracování osobních údajů</Link></li>
-                                <li onClick={() => setModalOpen(true)}>Bankovní spojení</li>
-                                <li onClick={CookiesOptions}>Nastavení cookies</li>
+                                <li><Link href='/personal-data-processing/'>Personal data processing</Link></li>
+                                <li onClick={() => setModalOpen(true)}>Bank details</li>
+                                <li onClick={CookiesOptions}>Cookie settings</li>
                             </ul>
                         </div>
                         <div className="group">
-                            <h2>Navigace</h2>
+                            <h2>Navigation</h2>
                             <ul>
-                                <li onClick={() => scrollToTarget('hero')}>Úvod</li>
-                                <li onClick={() => scrollToTarget('products')}>Produkty</li>
-                                <li onClick={() => scrollToTarget('aboutus')}>O nás</li>
+                                <li onClick={() => scrollToTarget('hero')}>Home</li>
+                                <li onClick={() => scrollToTarget('products')}>Products</li>
+                                <li onClick={() => scrollToTarget('aboutus')}>About Us</li>
                                 <li>
-                                    <Link href="/ke-stazeni/" rel="noopener noreferrer"
-                                          aria-label="Odkaz na podstránku kontakt">
-                                        <span>Ke stažení</span>
+                                    <Link href="/downloads/" rel="noopener noreferrer"
+                                          aria-label="Link to downloads page">
+                                        <span>Downloads</span>
                                     </Link>
                                 </li>
-                                <li onClick={() => scrollToTarget('contact')}>Kontakt</li>
+                                <li onClick={() => scrollToTarget('contact')}>Contact</li>
                             </ul>
                         </div>
                         <div className="group">
-                            <h2>Kontakty</h2>
+                            <h2>Contacts</h2>
                             <ul>
                                 <li>
                                     <Link
-                                        href="mailto:prodej@clinipharma.cz"
+                                        href="mailto:sales@clinipharma.eu"
                                         className="link"
-                                        aria-label="Napište nám email"
+                                        aria-label="Send us an email"
                                         target="_blank"
                                         rel="noopener noreferrer">
                                         <img src="/images/footer-mail.svg" width={30} height={30} alt="Ikona emailu" draggable={false} loading="lazy"/>
-                                        prodej@clinipharma.cz
+                                        sales@clinipharma.eu
                                     </Link>
                                 </li>
                                 <li>
                                     <Link
-                                        href="tel:602243441"
+                                        href="tel:+420602243441"
                                         className="link"
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        aria-label="Zavolejte nám">
+                                        aria-label="Call us">
                                         <img src="/images/footer-tel.svg" width={30} height={30} alt="Ikona telefonu" draggable={false} loading="lazy"/>
                                         +420 602 243 441
                                     </Link>
@@ -111,7 +111,7 @@ export default function Footer({hasBg}) {
                                         className="link"
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        aria-label="Odkaz na sídlo firmy">
+                                        aria-label="Link to our headquarters">
                                         <img src="/images/footer-location.svg" width={30} height={30} alt="Ikona telefonu" draggable={false} loading="lazy"/>
                                         Palackého 223, 288 02 Nymburk
                                     </Link>
@@ -123,7 +123,7 @@ export default function Footer({hasBg}) {
                 <div className="bottom">
                     <div className="container">
                         <div className="row">
-                            <p className="copyright sm">© {new Date().getFullYear()} clinipharma.cz, Všechna práva vyhrazena.</p>
+                            <p className="copyright sm">© {new Date().getFullYear()} clinipharma.eu, All Rights Reserved.</p>
                             <Link href='https://www.mladejovsky.cz' target="_blank" className="author">Web & Design <b>mladejovsky</b></Link>
                         </div>
                     </div>
