@@ -1,3 +1,6 @@
+## Sample production video
+https://www.youtube.com/watch?v=2EgNEP4ka3g
+
 ## CZ
 ```jsx
 export const metadata = {

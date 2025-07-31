@@ -21,7 +21,7 @@ export default function RootLayout({children}) {
     return (
         <html lang="cs" className={[lato.variable, opensans.variable].join(" ")} translate="no" suppressHydrationWarning={true}>
         <head>
-            <script async src="https://www.googletagmanager.com/gtag/js?id=G-9TJ7FDQWZS"></script>
+            <script async src="https://www.googletagmanager.com/gtag/js?id=G-GFXH04LNFT"></script>
             <script
                 dangerouslySetInnerHTML={{
                     __html: `

@@ -34,6 +34,12 @@
     outline: none;
 }
 
+.contact form .hidden-field {
+    position: absolute;
+    left: -9999px;
+    top: -9999px;
+}
+
 .contact button {
     padding: 16px 48px;
     margin-top: -36px;

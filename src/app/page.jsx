@@ -8,7 +8,6 @@ import {useEffect, useState} from "react";
 import './page.css';
 import Link from "next/link";
 import Contact from "@/app/_components/Contact/Contact";
-import EmblaCarouselGallery from "@/app/_components/EmblaCarousel/js/EmblaCarouselGallery";
 import Marquee from "react-fast-marquee";
 import ReactPlayer from "react-player";
 
@@ -98,10 +97,10 @@ export default function Home() {
           <div className="container">
             <h2>Products</h2>
             <div className="row">
-              <img src="/images/products/product-photo1.webp" alt="Foto produktu" draggable={false} loading="lazy" className="item one"/>
-              <img src="/images/products/product-photo2.webp" alt="Foto produktu" draggable={false} loading="lazy" className="item two"/>
-              <img src="/images/products/product-photo3.webp" alt="Foto produktu" draggable={false} loading="lazy" className="item three"/>
-              <img src="/images/products/product-photo4.webp" alt="Foto produktu" draggable={false} loading="lazy" className="item four"/>
+              <img src="/images/products/product-photo1.webp" alt="combiSTOPPER" draggable={false} loading="lazy" className="item one"/>
+              <img src="/images/products/product-photo2.webp" alt="coroSPIKE" draggable={false} loading="lazy" className="item two"/>
+              <img src="/images/products/product-photo3.webp" alt="Heilderberger" draggable={false} loading="lazy" className="item three"/>
+              <img src="/images/products/product-photo4.webp" alt="3-way stopcock" draggable={false} loading="lazy" className="item four"/>
             </div>
             <div className="btns-row" data-aos="fade-up" data-aos-once="true" data-aos-delay="0">
               <Link href="/products/" rel="noopener noreferrer" aria-label="Link to all products" className="btn btn-primary">View All Products</Link>
@@ -241,21 +240,21 @@ export default function Home() {
           <div className="container">
             <h2>From Production</h2>
             <div className="row">
-              <div className="item one" onClick={() => setIsVideoOnePlaying(true)}>
+              <div className="item one" onClick={() => setIsVideoOnePlaying(false)}>
                 <img src="/images/vyroba-photo1.webp" className="vyroba-photo" alt="Video from Production" draggable={false} loading="lazy" />
-                <img src="/images/icon-play.svg" className="icon-play" alt="Play Video Icon" width={120} height={120} draggable={false} loading="lazy" />
+                {/*<img src="/images/icon-play.svg" className="icon-play" alt="Play Video Icon" width={120} height={120} draggable={false} loading="lazy" />*/}
               </div>
-              <div className="item two" onClick={() => setIsVideoTwoPlaying(true)}>
+              <div className="item two" onClick={() => setIsVideoTwoPlaying(false)}>
                 <img src="/images/vyroba-photo2.webp" className="vyroba-photo" alt="Video from Production" draggable={false} loading="lazy" />
-                <img src="/images/icon-play.svg" className="icon-play" alt="Play Video Icon" width={120} height={120} draggable={false} loading="lazy" />
+                {/*<img src="/images/icon-play.svg" className="icon-play" alt="Play Video Icon" width={120} height={120} draggable={false} loading="lazy" />*/}
               </div>
-              <div className="item three" onClick={() => setIsVideoThreePlaying(true)}>
+              <div className="item three" onClick={() => setIsVideoThreePlaying(false)}>
                 <img src="/images/vyroba-photo3.webp" className="vyroba-photo" alt="Video from Production" draggable={false} loading="lazy" />
-                <img src="/images/icon-play.svg" className="icon-play" alt="Play Video Icon" width={120} height={120} draggable={false} loading="lazy" />
+                {/*<img src="/images/icon-play.svg" className="icon-play" alt="Play Video Icon" width={120} height={120} draggable={false} loading="lazy" />*/}
               </div>
-              <div className="item four" onClick={() => setIsVideoFourPlaying(true)}>
+              <div className="item four" onClick={() => setIsVideoFourPlaying(false)}>
                 <img src="/images/vyroba-photo4.webp" className="vyroba-photo" alt="Video from Production" draggable={false} loading="lazy" />
-                <img src="/images/icon-play.svg" className="icon-play" alt="Play Video Icon" width={120} height={120} draggable={false} loading="lazy" />
+                {/*<img src="/images/icon-play.svg" className="icon-play" alt="Play Video Icon" width={120} height={120} draggable={false} loading="lazy" />*/}
               </div>
             </div>
           </div>
@@ -264,7 +263,7 @@ export default function Home() {
             <div className="video-modal" onClick={handleCloseModal}>
               <div className="video-modal-content" onClick={(e) => e.stopPropagation()}>
                 <ReactPlayer
-                    url="https://www.youtube.com/watch?v=2EgNEP4ka3g"
+                    url=""
                     controls={true}
                     playing={true}
                     className="react-player"
@@ -277,7 +276,7 @@ export default function Home() {
             <div className="video-modal" onClick={handleCloseModal}>
               <div className="video-modal-content" onClick={(e) => e.stopPropagation()}>
                 <ReactPlayer
-                    url="https://www.youtube.com/watch?v=2EgNEP4ka3g"
+                    url=""
                     controls={true}
                     playing={true}
                     className="react-player"
@@ -290,7 +289,7 @@ export default function Home() {
             <div className="video-modal" onClick={handleCloseModal}>
               <div className="video-modal-content" onClick={(e) => e.stopPropagation()}>
                 <ReactPlayer
-                    url="https://www.youtube.com/watch?v=2EgNEP4ka3g"
+                    url=""
                     controls={true}
                     playing={true}
                     className="react-player"
@@ -303,7 +302,7 @@ export default function Home() {
             <div className="video-modal" onClick={handleCloseModal}>
               <div className="video-modal-content" onClick={(e) => e.stopPropagation()}>
                 <ReactPlayer
-                    url="https://www.youtube.com/watch?v=2EgNEP4ka3g"
+                    url=""
                     controls={true}
                     playing={true}
                     className="react-player"

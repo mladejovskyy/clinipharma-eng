@@ -33,7 +33,7 @@ export default function GDPRPage() {
                                     If you have any questions regarding personal data protection, you can contact us using the following contact details:
                                 </p>
                                 <ul>
-                                    <li>Email address: <Link aria-label="Send email to prodej@clinipharma.cz" rel="noopener norefferer" target="_blank" href="mailto:prodej@clinipharma.cz">prodej@clinipharma.cz</Link></li>
+                                    <li>Email address: <Link aria-label="Send email to sales@clinipharma.eu" rel="noopener norefferer" target="_blank" href="mailto:sales@clinipharma.eu">sales@clinipharma.eu</Link></li>
                                     <li>Phone number: <Link aria-label="Call +420 602 243 441" rel="noopener norefferer" target="_blank" href="tel:602243441">+420 602 243 441</Link></li>
                                 </ul>
                             </div>
@@ -99,7 +99,7 @@ export default function GDPRPage() {
                                     <li><span>Right to data portability</span> You have the right to receive your data in a machine-readable format.</li>
                                     <li><span>Right to object</span> You may object to the processing of your personal data.</li>
                                 </ul>
-                                <p className="sm">To exercise your rights, please contact us at the email address: <Link aria-label="Send email to prodej@clinipharma.cz" rel="noopener norefferer" target="_blank" href="mailto:prodej@clinipharma.cz">prodej@clinipharma.cz</Link></p>
+                                <p className="sm">To exercise your rights, please contact us at the email address: <Link aria-label="Send email to sales@clinipharma.eu" rel="noopener norefferer" target="_blank" href="mailto:sales@clinipharma.eu">sales@clinipharma.eu</Link></p>
                             </div>
                             <div className="item">
                                 <h2>Filing a complaint</h2>

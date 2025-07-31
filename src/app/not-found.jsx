@@ -8,7 +8,7 @@ import Banner from "@/app/_components/Banner/Banner";
 
 export default function ErrorPage() {
     const breadcrumbs = [
-        { text: "Domů", url: "/" },
+        { text: "Home", url: "/" },
     ];
 
 
@@ -21,9 +21,9 @@ export default function ErrorPage() {
                         <div className="container">
                             <div className="row">
                                 <h2>404</h2>
-                                <h3>Nemohli jsme najít hledanou stránku</h3>
+                                <h3>We couldn't find what you're looking for.</h3>
                                 <div className="btns-row">
-                                    <Link href="/" rel="noopenner noreferrer" alt="Odkaz na úvodní stránku" className="btn btn-primary">Vrátit se na úvodní stránku</Link>
+                                    <Link href="/" rel="noopenner noreferrer" alt="Odkaz na úvodní stránku" className="btn btn-primary">Return to homepage</Link>
                                 </div>
                             </div>
                         </div>

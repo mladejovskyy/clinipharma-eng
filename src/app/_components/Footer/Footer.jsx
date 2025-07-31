@@ -60,7 +60,9 @@ export default function Footer({hasBg}) {
                         <div className="group">
                             <h2>Useful</h2>
                             <ul>
-                                <li><Link href='/personal-data-processing/'>Personal data processing</Link></li>
+                                <li>
+                                    <Link href='/personal-data-processing/' rel="noreferrer noopenner" aria-label="Link to Personal Data Processing Page">Personal data processing</Link>
+                                </li>
                                 <li onClick={() => setModalOpen(true)}>Bank details</li>
                                 <li onClick={CookiesOptions}>Cookie settings</li>
                             </ul>
@@ -90,7 +92,7 @@ export default function Footer({hasBg}) {
                                         aria-label="Send us an email"
                                         target="_blank"
                                         rel="noopener noreferrer">
-                                        <img src="/images/footer-mail.svg" width={30} height={30} alt="Ikona emailu" draggable={false} loading="lazy"/>
+                                        <img src="/images/footer-mail.svg" width={30} height={30} alt="Email Icon" draggable={false} loading="lazy"/>
                                         sales@clinipharma.eu
                                     </Link>
                                 </li>
@@ -101,7 +103,7 @@ export default function Footer({hasBg}) {
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         aria-label="Call us">
-                                        <img src="/images/footer-tel.svg" width={30} height={30} alt="Ikona telefonu" draggable={false} loading="lazy"/>
+                                        <img src="/images/footer-tel.svg" width={30} height={30} alt="Phone Icon" draggable={false} loading="lazy"/>
                                         +420 602 243 441
                                     </Link>
                                 </li>
@@ -112,7 +114,7 @@ export default function Footer({hasBg}) {
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         aria-label="Link to our headquarters">
-                                        <img src="/images/footer-location.svg" width={30} height={30} alt="Ikona telefonu" draggable={false} loading="lazy"/>
+                                        <img src="/images/footer-location.svg" width={30} height={30} alt="Location Icon" draggable={false} loading="lazy"/>
                                         Palackého 223, 288 02 Nymburk
                                     </Link>
                                 </li>
@@ -124,7 +126,7 @@ export default function Footer({hasBg}) {
                     <div className="container">
                         <div className="row">
                             <p className="copyright sm">© {new Date().getFullYear()} clinipharma.eu, All Rights Reserved.</p>
-                            <Link href='https://www.mladejovsky.cz' target="_blank" className="author">Web & Design <b>mladejovsky</b></Link>
+                            <Link href='https://www.mladejovsky.cz' rel="noopenner" aria-label="Link to designer and developer of this website" target="_blank" className="author">Web & Design <b>mladejovsky</b></Link>
                         </div>
                     </div>
                 </div>

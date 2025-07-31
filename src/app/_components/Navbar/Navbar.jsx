@@ -1,6 +1,6 @@
 'use client'
 import './Navbar.css';
-import {useState, useEffect} from 'react';
+import {useState, useEffect, useRef } from 'react';
 import {useRouter} from 'next/navigation';
 import Link from "next/link";
 import { usePathname } from 'next/navigation';
@@ -9,6 +9,11 @@ export default function Navbar({subpage}) {
     const [menuOpen, setMenuOpen] = useState(false);
     const [scrolled, setScrolled] = useState(false);
     const router = useRouter();
+    const isMobile = typeof window !== "undefined" && window.innerWidth <= 1024;
+
+    // Language
+    const [langOpen, setLangOpen] = useState(false);
+    const langRef = useRef(null);
 
     let NavClass;
     if(subpage) {
@@ -102,6 +107,29 @@ export default function Navbar({subpage}) {
                         <li data-aos="fade-down" data-aos-once="true" data-aos-delay="400">
                             <button className="btn btn-secondary" onClick={() => scrollToTarget('contact')}>Contact us</button>
                         </li>
+                        <div
+                            data-aos="fade-down" data-aos-once="true" data-aos-delay="500"
+                            className="choose-lang"
+                            ref={langRef}
+                            onClick={() => setLangOpen(v => !v)}
+                        >
+                            <img src="/images/flag-en.svg" alt="English Flag" draggable={false} width={24} height={24} loading="eager" className="flag active"/>
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" className="chevron">
+                                <path d="M2 5.33325L8 11.3333L14 5.33325" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                            </svg>
+                            <div>
+                                {langOpen && (
+                                    <div className="lang-dropdown">
+                                        <Link href="https://www.clinipharma.cz" locale="cz" aria-label="Czech translation of this website">
+                                            <img src="/images/flag-cz.svg" alt="Czech Flag" width={24} height={24} className="flag"/>
+                                        </Link>
+                                        <Link href="https://www.clinipharma.de" locale="de" aria-label="German translation of this website">
+                                            <img src="/images/flag-de.svg" alt="German Flag" width={24} height={24} className="flag"/>
+                                        </Link>
+                                    </div>
+                                )}
+                            </div>
+                        </div>
                     </ul>
                 </nav>
             </div>

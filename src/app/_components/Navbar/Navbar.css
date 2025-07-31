@@ -1,3 +1,47 @@
+.nav .choose-lang {
+    position: relative;
+    display: grid;
+    grid-template-columns: 24px 20px;
+    gap: 6px;
+    align-items: center;
+}
+
+.lang-dropdown {
+    position: absolute;
+    top: 110%;
+    right: 0;
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 8px 0;
+    z-index: 1001;
+    min-width: 48px;
+}
+
+.choose-lang img, .choose-lang svg {
+    cursor: pointer;
+    user-select: none;
+}
+
+.lang-dropdown .flag {
+    width: 24px;
+    height: 24px;
+    margin: 0 12px;
+    transition: transform 0.1s;
+}
+
+.lang-dropdown .flag:hover {
+    transform: scale(1.1);
+}
+
+.nav.scrolled .chevron *,
+.nav.open .chevron * {
+    stroke: #131313;
+}
+
 .nav {
     position: fixed;
     top: 0;
@@ -21,6 +65,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 16px 20px !important;
+    position: relative;
 }
 
 .nav-logo {
@@ -145,6 +190,18 @@ nav .burger-menu.open .bar:nth-child(3) {
         padding: 50px 0;
         opacity: 1;
         transform: translateY(0);
+    }
+
+    .lang-dropdown {
+        position: relative;
+        margin-top: 12px;
+        padding: 0;
+        background-color: transparent;
+        box-shadow: none;
+        border-radius: 0;
+        display: flex;
+        align-items: center;
+        gap: 12px;
     }
 }
 

@@ -26,7 +26,7 @@ const getConfig = (): CookieConsentConfig => {
 
       if (cookie.categories?.includes('analytics')) {
         window.gtag('js', new Date());
-        window.gtag('config', 'G-xxxxxxxxxx');
+        window.gtag('config', 'G-GFXH04LNFT');
       }
     },
 
@@ -37,18 +37,6 @@ const getConfig = (): CookieConsentConfig => {
         document.cookie = '_ga=; Max-Age=0; path=/';
         document.cookie = '_gid=; Max-Age=0; path=/';
       }
-    },
-
-    onModalReady: ({ modalName }: { modalName: string }) => {
-      console.log('ready:', modalName);
-    },
-
-    onModalShow: ({ modalName }: { modalName: string }) => {
-      console.log('visible:', modalName);
-    },
-
-    onModalHide: ({ modalName }: { modalName: string }) => {
-      console.log('hidden:', modalName);
     },
 
     guiOptions: {
@@ -92,7 +80,7 @@ const getConfig = (): CookieConsentConfig => {
             acceptNecessaryBtn: 'Deny All',
             showPreferencesBtn: 'Manage preferences',
             footer: `
-              <a href='/zpracovani-osobnich-udaju/' target='_blank'>Zásady ochrany osobních údajů</a>
+              <a href='/personal-data-processing/' target='_blank'>Personal Data Processing</a>
             `,
           },
           preferencesModal: {
@@ -118,7 +106,7 @@ const getConfig = (): CookieConsentConfig => {
               },
               {
                 title: 'More Information',
-                description: 'If you have any questions about our cookie policy, <a href="/contact/">contact us</a>.',
+                description: 'If you have any questions about our cookie policy, <a href="/#contact">contact us</a>.',
               },
             ],
           },
