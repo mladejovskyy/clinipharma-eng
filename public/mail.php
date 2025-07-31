@@ -35,7 +35,7 @@ try {
             exit;
         }
 
-        $to = "prodej@clinipharma.cz";
+        $to = "sales@clinipharma.eu";
         $mailSubject = "Clinipharma.eu - $subject";
         $body = "Jméno: $name\nKontakt: $email\nZpráva:\n$message";
         $headers = "From: noreply@clinipharma.eu\r\n";

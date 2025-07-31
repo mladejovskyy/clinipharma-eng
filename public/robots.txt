@@ -1,0 +1,16 @@
+# *
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /_next/
+Disallow: /images/
+
+# Googlebot-Image
+User-agent: Googlebot-Image
+Allow: /images/
+
+# Host
+Host: https://www.clinipharma.eu/
+
+# Sitemaps
+Sitemap: https://www.clinipharma.eu/sitemap.xml
